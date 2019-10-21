@@ -95,18 +95,18 @@
                 <h3>Condições atuais:</h3>
                 <img src="imagens/prevdia.png" class="img-fluid" alt="condicoes atuais">
             </div>
-            <div class="container mt-2">
+            <div class="container p-0 mt-2">
                 <nav>
                     <h2>Encontre nesta área:</h2>
                     <ul class="nav justify-content-between mt-2">
-                        <li class="nav-item"><a class=nav-link href="#">Acomodação</a></li>
-                        <li class="nav-item"><a class=nav-link href="#">Surf Shop</a></li>
-                        <li class="nav-item"><a class=nav-link href="#">Manutenção</a></li>
-                        <li class="nav-item"><a class=nav-link href="#">CARONA</a></li>
+                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">ACOMODAÇAO</a></li>
+                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">SURF SHOP</a></li>
+                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">MANUTENÇAO</a></li>
+                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">CARONA</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="container p-0">
+            <div class="container mt-3 p-0">
                 <img src="imagens/mapa.png" class="img-fluid" alt="condicoes atuais">
             </div>
         </div>
