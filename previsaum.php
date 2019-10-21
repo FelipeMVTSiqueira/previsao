@@ -11,14 +11,15 @@
     <body>
             <div class="container mt-3" style="height: 300px;">
                 <div class="d-flex justify-content-center">
-                <img src="imagens/Logo_black.png" class="img-fluid" style="height: 300px;" alt="foto de capa">
+                <img src="imagens/Logo_white.png" class="img-fluid" style="position: absolute; height: 300px;" alt="foto de capa">
+                <img src="imagens/capasurf.png" class="img-fluid">
                 </div>
             </div>
         <div class="container mt-3">
             <div class="d-flex flex-row">
                 <img src="imagens/Logo_black.png" style="height: 50px;">
                 <div class="container-fluid">
-                    <input type="text" class="form-control font-accent tt-input mx-80" data-type="search" placeholder="Procurar no Portal do Surf" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;">
+                    <input type="text" class="form-control font-accent tt-input mx-80" data-type="search" placeholder="Procurar no Portal do Surf" autocomplete="off" spellcheck="false" dir="center" style="position: relative; vertical-align: top; background-color: transparent;">
                 </div>
                 <nav class="w-25">
                     <ul class="nav">
