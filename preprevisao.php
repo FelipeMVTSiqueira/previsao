@@ -88,4 +88,12 @@
                 <option value="riviera">Riviera</option>
             </select>
         </div>
+            <nav class=container>
+                <ul class="nav justify-content-between mt-2">
+                    <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">ACOMODAÇAO</a></li>
+                    <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">SURF SHOP</a></li>
+                    <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">MANUTENÇAO</a></li>
+                    <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">CARONA</a></li>
+                </ul>
+            </nav>
     </body>

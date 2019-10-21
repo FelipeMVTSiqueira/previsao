@@ -9,10 +9,10 @@
     <title>Portal do Surf</title>
     </head>
     <body>
-            <div class="container mt-3" style="height: 300px;">
+            <div class="container-fluid">
                 <div class="d-flex justify-content-center">
                 <img src="imagens/Logo_white.png" class="img-fluid" style="position: absolute; height: 300px;" alt="foto de capa">
-                <img src="imagens/capasurf.png" class="img-fluid">
+                <img src="imagens/capasurf.png" class="img-fluid" style="height: 300px;">
                 </div>
             </div>
         <div class="container mt-3">
@@ -78,7 +78,7 @@
         <div class=container>
             <h1>PRAIA DE MARESIAS</h1>
             <div class="d-flex flex-row mr-3">
-                <img src="imagens/surfmaresias.png" class="img-fluid" alt="responsive image">
+                <img src="imagens/surfmaresias.png" class="img-fluid" style="width: 400px;" alt="responsive image">
                 <div class="container ml-3">
                     <p>A onda de Maresias detém o título de uma das melhores ondas de São Paulo.</p>
                     <ul>
@@ -97,15 +97,14 @@
                 <img src="imagens/prevdia.png" class="img-fluid" alt="condicoes atuais">
             </div>
             <div class="container p-0 mt-2">
-                <nav>
-                    <h2>Encontre nesta área:</h2>
-                    <ul class="nav justify-content-between mt-2">
-                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">ACOMODAÇAO</a></li>
-                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">SURF SHOP</a></li>
-                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">MANUTENÇAO</a></li>
-                        <li class="nav-item d-inline p-2 bg-dark"><a class=nav-link href="#">CARONA</a></li>
-                    </ul>
-                </nav>
+                <h2>Encontre nesta área:</h2>
+                <select class="form-control font-accent tt-input mx-80" name="encontre">
+                    <option disabled selected>Encontre:</option>
+                    <option value=”una”>Acomodação</option>
+                    <option value=”juquehy”>Surf Shop</option>
+                    <option value=”maresias”>Manutenção</option>
+                    <option value=”baleia”>CARONA</option>
+                </select>
             </div>
             <div class="container mt-3 p-0">
                 <img src="imagens/mapa.png" class="img-fluid" alt="condicoes atuais">
@@ -113,10 +112,10 @@
         </div>
         <div class=container>
             <h2>Itens a venda nesta área:</h2>
-            <div class=row>
-                <img src="imagens/venda1.png" class="img-fluid mx-1" alt="condicoes atuais">
-                <img src="imagens/venda1.png" class="img-fluid mx-1" alt="condicoes atuais">
-                <img src="imagens/venda1.png" class="img-fluid mx-1" alt="condicoes atuais">
+            <div class="row justify-content-between">
+                <img src="imagens/venda1.png" class="img-fluid" alt="condicoes atuais">
+                <img src="imagens/venda1.png" class="img-fluid" alt="condicoes atuais">
+                <img src="imagens/venda1.png" class="img-fluid" alt="condicoes atuais">
             </div>
         </div>
         <div class="container mt-2">
