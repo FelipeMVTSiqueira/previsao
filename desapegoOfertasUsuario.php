@@ -1,4 +1,4 @@
-<!-- Felipe: libere a sua criatividade. -->
+<!-- Caio: página de histórico das oferta cadastradas pelo usuário logado, acessada por link na página de desapego principal, caso existam ofertas dele (do Rodrigo). -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <title>Portal do Surf - Previsão</title>
+    <title>Portal do Surf - Desapego</title>
 </head>
 <body>
     <?php include_once("header.php") ?>   
